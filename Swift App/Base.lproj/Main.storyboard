@@ -57,6 +57,28 @@
                                     <action selector="changeTxtButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RoU-72-gpA"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KIs-DK-QQX">
+                                <rect key="frame" x="140" y="150" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5SG-3Y-VWq">
+                                <rect key="frame" x="141" y="194" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSB-WC-EZP">
+                                <rect key="frame" x="167" y="251" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add it"/>
+                                <connections>
+                                    <action selector="buttonAdditTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BS5-tH-yt7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -67,6 +89,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="firstNum" destination="KIs-DK-QQX" id="AwX-7S-L83"/>
+                        <outlet property="secondNum" destination="5SG-3Y-VWq" id="ece-1Q-mo2"/>
                         <outlet property="theLabel" destination="Y0y-ud-Vwt" id="b2n-hk-Hgn"/>
                     </connections>
                 </viewController>

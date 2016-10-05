@@ -12,6 +12,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var theLabel: UILabel!
     
+    @IBOutlet weak var firstNum: UITextField!
+    
+    @IBOutlet weak var secondNum: UITextField!
+    
+    @IBAction func buttonAdditTapped(_ sender: Any) {
+        theLabel.text = "\(Double(firstNum.text!)! + Double(secondNum.text!)!)"    
+        
+    }
     var tapCount = 0
     
     @IBAction func buttonTapped(_ sender: Any) {
