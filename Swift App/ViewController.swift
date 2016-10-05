@@ -3,7 +3,7 @@
 //  Swift App
 //
 //  Created by Todd Routhier on 10/4/16.
-//  Copyright © 2016 Firestream Cloud Solutions Inc. All rights reserved.
+//  Copyright © 2016 Firestream Cloud Solutions Inc. All rights reserved..
 //
 
 import UIKit
